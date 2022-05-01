@@ -1,0 +1,61 @@
+X:1
+I:abc-include piobaireachd.abh
+%%flatbeams 1
+T:Example Piobaireachd
+C:Unknown
+B:Piobaireachd Collection, Book 1
+R:Piobaireachd
+M:C
+L:1/8
+K:HP
+P:Urlar
+%%staffsep 0.75in
+{g}e A3 B/ {ge4}A>B !trill!c2 {g}e G2 B/ {GdG}B3 | {g}e A3 B/ {GdG}c2 {a}g2 !uppermordent!e2 {eAdA}e3\
+| {g}e A3 B/ {GdG}c2 {g}e G2 B/ {GdG}B3 | {g}e A3 {eAfA}e2 B/ {GdG}c {GdGcG}A3 :|
+{g}c>{e}A {g}c>{e}A ||["Line 2 only" {g}B>{e}A {g}c>{e}A | {g}d>{e}A {g}c>{e}A || {g}c>{e}A {g}c>{e}A |]
+%%vskip 0.5in
+%%staffsep 0.75in
+P:Dithis Singling
+{g}!fmt!A>{e}A {g}c>{e}A {g}G>{e}A {g}!fmt!B>{e}A | {g}!fmt!A>{e}A {g}c>{e}A {g}f>{g}A {g}!fmt!e>{g}A |\
+    {g}!fmt!A>{e}A {g}c>{e}A {g}G>{e}A {g}!fmt!B>{e}A | {g}!fmt!A>{e}A {g}e>{g}A {g}c>{e}A {g}!fmt!A>{e}A :|
+%%vskip 0.3in
+P:VI Taorluath
+["Twice" !ttrip!A<{d}c !ttrip!A<e | !ttrip!A<e {ge4d}c!trill!!fermata!c || !ttrip!B<{d}c !ttrip!A<e | !ttrip!A<e {ge4d}B!trill!!fermata!B ||
+!ttrip!A<{d}c !ttrip!A<e | !ttrip!A<e {ge4d}c!trill!!fermata!c ||["Line 2 only" !ttrip!B<{d}c !ttrip!A<e | !ttrip!A<{d}c !ttrip!A<e || !ttrip!B<{d}c !ttrip!A<e | !ttrip!A<e {ge4d}B!trill!!fermata!B :|]
+
+
+
+X:2
+M:C
+L:1/8
+K:HP
+%%staffsep 1.25in
+P:Taorluah, Taorluah a Mach, Crunluath, Crunluath a Mach
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!e2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 | \
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!e2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 | \
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!e2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 | \
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!e2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 :|
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!f2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 | \
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!e2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 | \
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!f2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 | \
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!e2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 ||
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!f2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 | \
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!e2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 | \
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!B2 | \
+{g}!fmt!!taor!!taorm!!crun!!crunm!A2 {g}!taor!!taorm!!crun!!crunm!e2 {g}!taor!!taorm!!crun!!crunm!c2 {g}!fmt!!taor!!taorm!!crun!!crunm!A2 ||
+
+
+%%staffwidth 5.5in
+%%sysstaffsep 0.75in
+X:3
+I:abc-include piobaireachd.abh
+T:Abbreviations used.
+L:1/16
+M:
+K:HP
+V:1 name="written"
+!trill!c4 | !uppermordent!c4 | !uppermordent!e4 | !uppermordent!B4 | !ttrip!A2<{d}c2  | {g}!crun!d2>e2    | !taor!A4 {d}c4 |
+L:1/16
+M:C
+V:2 name="played"
+{GdG}c4   | c2<{GdG}c2       | {eAfA}e4         | B2<{GdG}B2 | {g}(3A/{d}A/{e}A/{d}c3 | {g}d2>{GdGeAfA}e2 | {g}A4 {GdGe}A2<{d}c2 |

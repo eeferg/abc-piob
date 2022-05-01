@@ -1,0 +1,93 @@
+% Header for Piobaireachd
+%
+% Uses custom decorators (deco.c) that may not be supported in
+% all versions of abcm2ps.  Currently tested in abcm2ps-6.6.22
+%
+%%beginps
+%
+% -- Taorluath marker under note
+/taor{
+	/Times-Roman findfont 11 scalefont setfont
+	M -8 0 RM
+	(T) show
+}!
+%
+% -- Taorluath a mach marker under note
+/taorm{
+	/Times-Roman findfont 11 scalefont setfont
+	M -8 0 RM
+	(T') show
+}!
+%
+% -- Crunluath marker under note
+/crun{
+	/Times-Roman findfont 11 scalefont setfont
+	M -8 0 RM
+	(C) show
+}!
+%
+%
+% -- Crunluath a mach marker under note
+/crunm{
+	/Times-Roman findfont 11 scalefont setfont
+	M -8 0 RM
+	(C') show
+}!
+%
+% -- Crunluath marker inside (MacCrimmon's Sweetheart)
+%/incrun{
+%	/Times-Roman findfont 14 scalefont setfont
+%	M 20 0 RM
+%	(C) show
+%}!
+% gsave and grestore fixed output
+%
+/crunbrea{
+	/Times-Roman findfont 11 scalefont setfont
+	M -8 0 RM
+	(C) show
+	-5.5 2.5 RM
+	gsave
+	1.8 1.8 scale
+	(.) show
+	grestore
+
+}!
+%
+% -- Taorluath Fosgailte tripling
+/ttrip{		% usage: x y taort	
+	1.2 SLW M -6 0 RM
+	9 0 RL
+   -9 -3 RM
+    9 0 RL
+    -9 -3 RM
+    9 0 RL
+	stroke}!
+%
+% -- Full size fermata over cadence
+/cfermata{	
+	1.5 add 2 copy 1.5 add M currentpoint 
+	1.3 1.3 scale
+	1.3 0 360 arc
+	M -7.5 0 RM
+	0 11.5 15 11.5 15 0 RC
+	-0.25 0 RL
+	-1.25 9 -13.25 9 -14.5 0 RC
+	fill}!
+%
+%%endps
+%%deco ttrip 4 ttrip 2 0 0
+%%deco crun 4 crun 10 0 0
+%%deco taor 4 taor 10 0 0
+%%deco crunm 4 crunm 10 0 0
+%%deco taorm 4 taorm 10 0 0
+%%deco incrun 2 incrun 10 0 0
+%%deco cfermata 3 cfermata 20 7 7
+%%deco crunbrea 4 crunbrea 8 0 0
+%%deco fmt 3 hld 12 7 7
+%
+%%flatbeams 0
+%gracespace 6.5 6 18
+%%gracespace 7 6 12
+%%staffsep 38pt
+%%scale 0.54

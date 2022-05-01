@@ -1,0 +1,30 @@
+pageheight 11in
+pagewidth 8.5in
+#gutter 0.25in
+leftmargin 1in
+#topmargin 0.25in
+#botmargin 4in
+#stemheight 30.0
+gracespace 4.5 5.5 10.0
+#maxshrink .9
+#breaklimit .9
+
+splittune 0
+
+titlefont Times-Roman 26
+subtitlefont Times-Roman 20
+infofont Times-Roman 18
+gchordfont Times-Roman 18
+vocalfont Times-Roman 16
+
+titleformat R1 T
+writefields X
+
+#scale 0.70
+#staffscale 1.2
+
+#maxstaffsep 85pt
+staffwidth 6.5in
+flatbeams 0
+stretchlast 1
+

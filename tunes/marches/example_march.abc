@@ -1,0 +1,11 @@
+%%flatbeams 1
+X:1
+T:Example March
+C:Unknown
+R:March
+L:1/8
+M:4/4
+K:HP
+V:1 clef=treble
+e | {g}A3 {d}c {a}g{d}A {a}g{d}c | {ag}a3 e {g}f2 {e}f/>g/a | e2 a>f {g}ec {a}g{d}A | {a}g4 {GdGe}B3 e |
+  [2  {g}A3 {d}c {a}g{d}A {a}g{d}c | {ag}a3 e {g}f2 {e}f/>g/a | e2 a>f {g}ec {a}g>{d}c | {g}A4 {GAG}A3 :|

@@ -1,0 +1,55 @@
+\documentclass[11pt,twoside,openleft]{book}
+\usepackage{parskip}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{geometry}
+\geometry{
+    letterpaper,
+    left=0.5in,
+    right=0.5in,
+    top=0.75in,
+    bottom=0.5in,
+}
+\setlength{\textwidth}{7.3in}
+
+\usepackage{titletoc}
+\usepackage{titlesec}
+\usepackage{lscape}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage[hidelinks,bookmarks,bookmarksdepth=2]{hyperref}
+
+% Checklist
+\usepackage{enumitem,amssymb}
+\newlist{fixlist}{itemize}{2}
+\setlist[fixlist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\checked}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+\hspace{-2.5pt}}
+\newcommand{\needfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
+
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+
+%-- Need to find a better solution than this for chapter pages
+\titleformat{\chapter}[display]
+{\normalfont\Large\filcenter}
+{\vspace*{\fill}
+ \titlerule[1pt]%
+ \vspace{1pt}%
+ \titlerule
+ \vspace{1pc}%
+ \LARGE\MakeUppercase{}~\thechapter}
+{1pc}
+{\titlerule\Huge}[]
+
+
+%-- Deal with unicode accents in text
+\include{unicode_accents}
+\DeclareGraphicsExtensions{001.eps}
+
+\setlength{\parindent}{0pt}
+
+
+% -----

@@ -1,0 +1,10 @@
+tunes/**/*.eps
+*.aux
+*.dvi
+*.toc
+*.log
+*.out
+*.ps
+*.mid
+.idea/
+

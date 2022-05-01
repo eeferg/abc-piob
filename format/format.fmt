@@ -1,0 +1,33 @@
+## for landscape - Comment staffwidth
+#pageheight 11in
+#pagewidth 8.5in
+staffwidth 7.5in
+#landscape 0
+rightmargin 1.1in
+
+flatbeams 0
+scale 0.54
+staffsep 65pt
+stretchlast 1
+
+#maxshrink .9
+#breaklimit .9
+
+gracespace 6.5 6 11
+splittune 0
+titlefont Times-Roman 26
+subtitlefont Times-Roman 20
+composerfont Times-Italic 16
+infofont Times-Italic 16
+gchordfont Times-Roman 18
+vocalfont Times-Roman 16
+historyfont Times-Roman 12
+#titleformat T , R-1 C1, S1
+titleformat T , R-1 C1
+
+writefields BN
+
+
+
+
+

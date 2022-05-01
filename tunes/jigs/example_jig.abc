@@ -1,0 +1,11 @@
+%%flatbeams 1
+X:1
+T:Example Jig
+C:traditional
+B:Ceol Book
+R:Jig
+L:1/8
+M:6/8
+K:HP
+ |: {g}B{d}B{e}B {g}c{d}c{e}c | {g}B{d}B{e}B {g}c{d}c{e}c | {g}B{d}B{e}B {g}c{d}c{e}c |{g}B{d}B{e}B {g}c{d}c{e}c :|
+ |: {g}B{d}B{e}B {g}c{d}c{e}c | {g}B{d}B{e}B {g}c{d}c{e}c | {g}B{d}B{e}B {g}c{d}c{e}c |{g}B{d}B{e}B {g}c{d}c{e}c :|

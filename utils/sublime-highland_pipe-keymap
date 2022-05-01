@@ -1,0 +1,54 @@
+[
+    // Single grace
+    { "keys": ["shift+ctrl+h"], "command": "insert", "args": {"characters": "{a}", } },
+    { "keys": ["shift+ctrl+g"], "command": "insert", "args": {"characters": "{g}", } },
+    { "keys": ["shift+ctrl+f"], "command": "insert", "args": {"characters": "{f}", } },
+    { "keys": ["shift+ctrl+e"], "command": "insert", "args": {"characters": "{e}", } },
+    { "keys": ["shift+ctrl+d"], "command": "insert", "args": {"characters": "{d}", } },
+    { "keys": ["shift+ctrl+c"], "command": "insert", "args": {"characters": "{c}", } },
+    { "keys": ["shift+ctrl+b"], "command": "insert", "args": {"characters": "{B}", } },
+    { "keys": ["shift+ctrl+a"], "command": "insert", "args": {"characters": "{A}", } },
+    { "keys": ["shift+ctrl+l"], "command": "insert", "args": {"characters": "{G}", } },
+
+    // Doublings
+    { "keys": ["shift+ctrl+=","h"], "command": "insert", "args": {"characters": "{ag}a"} },
+    { "keys": ["shift+ctrl+=","g"], "command": "insert", "args": {"characters": "{gf}g"} },
+    { "keys": ["shift+ctrl+=","f"], "command": "insert", "args": {"characters": "{gfg}f"} },
+    { "keys": ["shift+ctrl+=","e"], "command": "insert", "args": {"characters": "{gef}e"} },
+    { "keys": ["shift+ctrl+=","d"], "command": "insert", "args": {"characters": "{gde}d"} },
+    { "keys": ["shift+ctrl+=","c"], "command": "insert", "args": {"characters": "{gcd}c"} },
+    { "keys": ["shift+ctrl+=","b"], "command": "insert", "args": {"characters": "{gBd}B"} },
+    { "keys": ["shift+ctrl+=","A"], "command": "insert", "args": {"characters": "{gAd}A"} },
+    { "keys": ["shift+ctrl+=","l"], "command": "insert", "args": {"characters": "{gGd}G"} },
+
+    // Half doublings
+    { "keys": ["shift+ctrl+-","f"], "command": "insert", "args": {"characters": "{fg}f"} },
+    { "keys": ["shift+ctrl+-","e"], "command": "insert", "args": {"characters": "{ef}e"} },
+    { "keys": ["shift+ctrl+-","d"], "command": "insert", "args": {"characters": "{de}d"} },
+    { "keys": ["shift+ctrl+-","c"], "command": "insert", "args": {"characters": "{cd}c"} },
+    { "keys": ["shift+ctrl+-","b"], "command": "insert", "args": {"characters": "{Bd}B"} },
+    { "keys": ["shift+ctrl+-","A"], "command": "insert", "args": {"characters": "{Ad}A"} },
+    { "keys": ["shift+ctrl+-","l"], "command": "insert", "args": {"characters": "{Gd}G"} },
+
+    // Slurs
+    { "keys": ["shift+ctrl+'","h"], "command": "insert", "args": {"characters": "{fA}a"}},
+    { "keys": ["shift+ctrl+'","g"], "command": "insert", "args": {"characters": "{afA}g"}},
+    { "keys": ["shift+ctrl+'","f"], "command": "insert", "args": {"characters": "{gfA}f"}},
+    { "keys": ["shift+ctrl+'","e"], "command": "insert", "args": {"characters": "{geA}e"}},
+    { "keys": ["shift+ctrl+'","d"], "command": "insert", "args": {"characters": "{gdG}d"}},
+    { "keys": ["shift+ctrl+'","c"], "command": "insert", "args": {"characters": "{gcG}c"}},
+    { "keys": ["shift+ctrl+'","B"], "command": "insert", "args": {"characters": "{gBG}B"}},
+    { "keys": ["shift+ctrl+'","A"], "command": "insert", "args": {"characters": "{gAG}A"}},
+
+    // Grips
+    { "keys": ["ctrl+shift+r"], "command": "insert", "args": {"characters": "{GdG}"} },
+    { "keys": ["ctrl+shift+t"], "command": "insert", "args": {"characters": "{GdGe}"} },
+
+    // Birls
+    { "keys": ["shift+ctrl+w","s"], "command": "insert", "args": {"characters": "{GAG}A"} },
+    { "keys": ["shift+ctrl+w","l"], "command": "insert", "args": {"characters": "{AGAG}A"} },
+    { "keys": ["shift+ctrl+w","g"], "command": "insert", "args": {"characters": "{gAGAG}A"} },
+
+    // Throws
+    { "keys": ["ctrl+shift+/"], "command": "insert", "args": {"characters": "{Gdc}d"} }
+]
